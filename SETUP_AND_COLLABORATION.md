@@ -5,13 +5,9 @@ Dành cho Vũ Thị Phương Anh và Nguyễn Phương Linh. Kho dự án:
 Nhánh tích hợp: `main`. Notebook chính nằm ngay ở thư mục gốc:
 `Group01_EShopClothing.ipynb`.
 
-Kho ở chế độ riêng tư. Hồng Anh phải cấp quyền cộng tác cho tài khoản GitHub
-của hai bạn; hai bạn cần chấp nhận lời mời trước khi clone hoặc push.
-Không gửi mật khẩu, mã xác minh hoặc mã truy cập trong notebook, commit hay tin nhắn.
-
 ## 1. Lấy dự án lần đầu
 
-Cài Git và Python 3.11. Mở PowerShell trên Windows hoặc Terminal trên macOS/Linux
+Cài Git. Mở PowerShell trên Windows hoặc Terminal trên macOS/Linux
 tại thư mục cha muốn chứa dự án, rồi chạy:
 
 ```bash
@@ -21,10 +17,6 @@ cd eshop-clothing-next-category
 git status
 ```
 
-Đây là URL thật, không phải đường dẫn mẫu. Khi Git yêu cầu xác thực, đăng nhập
-qua trình duyệt hoặc trình quản lý thông tin xác thực của Git. GitHub không dùng
-mật khẩu tài khoản để xác thực Git qua HTTPS.
-
 ## 2. Tạo môi trường và mở notebook
 
 Chạy từ thư mục vừa clone. Mỗi máy tự tạo `.venv` một lần, không sao chép môi
@@ -33,8 +25,7 @@ trường ảo của người khác. Các lần sau chỉ kích hoạt lại mô
 ### Windows PowerShell
 
 ```powershell
-py -3.11 --version
-py -3.11 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
@@ -61,8 +52,7 @@ các lệnh Python khác thay tiền tố `python` bằng cùng đường dẫn 
 ### macOS/Linux
 
 ```bash
-python3.11 --version
-python3.11 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
