@@ -1,0 +1,6 @@
+*.ipynb text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+requirements.txt text eol=lf
+*.csv -text whitespace=cr-at-eol
+e-shop*description.txt -text -whitespace
