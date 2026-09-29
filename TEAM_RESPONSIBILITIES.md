@@ -5,67 +5,67 @@
 Responsibility:
 Data preparation + feature engineering
 
-Tasks:
-├── Data preprocessing
-├── Current features
-├── Historical feature engineering
-│   ├── Previous Click
-│   ├── Price History
-│   └── Session Behavior
-├── Target engineering
-├── Session-based train/test split
-└── Export train/test datasets
+Tasks:  
+├── Data preprocessing  
+├── Current features  
+├── Historical feature engineering  
+│   ├── Previous Click  
+│   ├── Price History  
+│   └── Session Behavior  
+├── Target engineering  
+├── Session-based train/test split  
+├── Export train/test datasets  
+└── Literature review  
 
 Output:
 Notebook sections 1-11
 
 ---
 
-## Member 2: Vũ Thị Phương Anh
+## Member 2: Nguyễn Phương Linh  
 
-Responsibility:
-Baseline modeling + literature review
+Responsibility:  
+Evaluation
 
-Tasks:
-├── Model preprocessing pipeline (for both current + historical)
-├── E1: Current Features
-├── Train models
-├── Calculate metrics
-└── Literature review
+Tasks: (Sau phần Phương Anh)  
+├── Compare E1-E4  
+├── Metrics analysis  
+├── Confusion matrix  
+└── Feature importance  
+
 
 Output:
-Notebook sections 12-13 (can be differ if change notebook structure)
+Notebook sections tự tìm 
 
 ---
 
-## Member 3: Nguyễn Phương Linh
+## Member 3: Vũ Thị Phương Anh  
 
-Responsibility:
-Experimental modeling + Ablation experiments + Final evaluation
-Tasks:
-├── E2: Current + Previous Click
-├── E3: Current + Previous Click + Price History
-├── E4: Current + Previous Click + Price History + Session Behavior
-├── Compare E1-E4
-├── Metrics analysis
-├── Confusion matrix
-└── Feature importance
-
+Responsibility:  
+Model preprocessing + Model training 
+Tasks:  
+├── Model preprocessing pipeline (for both current + historical)  
+├── E1: Current Features  
+├── Train models  
+├── Calculate metrics  
+├── E2: Current + Previous Click  
+├── E3: Current + Previous Click + Price History  
+├── E4: Current + Previous Click + Price History + Session Behavior  
+└── Ablation interpretation  
 Output:
-Notebook section 14-18 (can be differ if change notebook structure)
+Notebook section tự tìm 
 
 ---
 
 ## All member
 
-Responsibility:
-Interpretation
+Responsibility:  
+Interpretation  
 
-Tasks:
-├── Ablation interpretation
-├── Business interpretation
-├── Limitations
-└── Conclusion
+Tasks:  
+├── Business interpretation  
+├── Limitations  
+└── Conclusion  
 
 Output:
 Notebook section 19-21 (can be differ if change notebook structure)
