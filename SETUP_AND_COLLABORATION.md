@@ -224,14 +224,3 @@ Sau khi push, mở GitHub, tạo pull request từ nhánh của mình vào `main
 thành viên kiểm tra trước khi gộp. Không force-push vào `main`. Lần sau trên
 cùng nhánh chỉ cần `git push`. Chỉ đánh dấu hoàn thành trong `TASK.md` khi đã
 chạy và có kết quả.
-
-## 7. Thuật ngữ
-
-- **Nhân Python (kernel):** tiến trình chạy các ô notebook; phải dùng `.venv` của dự án.
-- **Môi trường ảo:** Python và thư viện tách riêng cho dự án trên từng máy.
-- **Nhánh, commit, push, pull:** nhánh tách công việc; commit lưu một mốc; push gửi lên GitHub; pull lấy và ghép cập nhật về máy.
-- **Pull request:** đề nghị xem và gộp thay đổi vào nhánh chung.
-- **Rò rỉ dữ liệu:** dùng thông tin tương lai hoặc thông tin từ tập giữ lại để học mô hình hay chọn cách xử lý dữ liệu.
-- **Pipeline:** chuỗi xử lý dữ liệu và mô hình được áp dụng nhất quán khi huấn luyện và dự đoán.
-- **Kiểm định theo phiên:** giữ toàn bộ lượt nhấp của một phiên ở cùng một phía trong mỗi lần kiểm định.
-- **Macro F1:** trung bình F1 của bốn danh mục, mỗi danh mục có trọng số bằng nhau; **Weighted F1** tính trọng số theo số mẫu; **Accuracy** là tỷ lệ dự đoán đúng.
