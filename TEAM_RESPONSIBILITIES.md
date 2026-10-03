@@ -1,71 +1,22 @@
 # Team responsibilities
 
-## Member 1: Nguyễn Hồng Anh (me)
-
-Responsibility:
-Data preparation + feature engineering
-
-Tasks:  
-├── Data preprocessing  
-├── Current features  
-├── Historical feature engineering  
-│   ├── Previous Click  
-│   ├── Price History  
-│   └── Session Behavior  
-├── Target engineering  
-├── Session-based train/test split  
-├── Export train/test datasets  
-└── Literature review  
-
-Output:
-Notebook sections 1-11
-
----
-
-## Member 2: Nguyễn Phương Linh  
-
-Responsibility:  
-Evaluation
-
-Tasks: (Sau phần Phương Anh)  
-├── Compare E1-E4  
-├── Metrics analysis  
-├── Confusion matrix  
-└── Feature importance  
-
-
-Output:
-Notebook sections tự tìm 
-
----
-
-## Member 3: Vũ Thị Phương Anh  
-
-Responsibility:  
-Model preprocessing + Model training 
-Tasks:  
-├── Model preprocessing pipeline (for both current + historical)  
-├── E1: Current Features  
-├── Train models  
-├── Calculate metrics  
-├── E2: Current + Previous Click  
-├── E3: Current + Previous Click + Price History  
-├── E4: Current + Previous Click + Price History + Session Behavior  
-└── Ablation interpretation  
-Output:
-Notebook section tự tìm 
-
----
-
-## All member
-
-Responsibility:  
-Interpretation  
-
-Tasks:  
-├── Business interpretation  
-├── Limitations  
-└── Conclusion  
-
-Output:
-Notebook section 19-21 (can be differ if change notebook structure)
+| Section | Người phụ trách |
+|---|---|
+| 1. Project overview | Hồng Anh |
+| 2. Data understanding | Hồng Anh |
+| 3. Target and feature construction | Hồng Anh |
+| 4. Train/test split by session | Hồng Anh |
+| 5. EDA | Hồng Anh |
+| 6. Feature sets | Hồng Anh |
+| 7. Preprocessing + metrics | Phương Anh |
+| 8. Logistic Regression | Phương Anh |
+| 9. Tree-based models | Phương Anh |
+| 10. Support Vector Machine | Phương Anh |
+| 11. Model tuning | Phương Anh |
+| 12. Model comparison | Phương Linh |
+| 13. Best model evaluation | Phương Linh |
+| 14. Answer RQs | Phương Linh tổng hợp, cả nhóm duyệt |
+| 15. Business interpretation | Cả nhóm |
+| 16. Limitations | Cả nhóm |
+| 17. Future work | Cả nhóm |
+| 18. Conclusion | Cả nhóm |
